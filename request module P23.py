@@ -1,7 +1,7 @@
 # request module
 import requests
 payload = {"key1": "value1"}
-# r = requests.get("https://www.w3schools.com/html/default.asp", params=payload)
+
 r = requests.get("http://httpbin.org/get", params=payload)
 # print(r)
 # print(r.url)
